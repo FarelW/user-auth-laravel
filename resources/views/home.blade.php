@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HomePage</title>
-    <link rel="icon" type="image/x-icon" href="../../public/tes.ico" />
+    <link rel="icon" type="image/x-icon" href="{{ asset('tes.ico') }}" />
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;600&display=swap" rel="stylesheet">
     @vite('resources/css/app.css')
 </head>
@@ -33,7 +33,7 @@
     </div>
     <div class="bg-gray-800 py-4 flex justify-between">
         <a href="{{ url('/') }}" class="pl-4 bg-gray-800">
-            <img src="../../public/tes.png" alt="Logo" class=" h-6 sm:h-8 w-auto">
+            <img src="https://i.ibb.co/xHDc5KR/tes.png" alt="Logo" class=" h-6 sm:h-8 w-auto">
         </a>
         @if (Auth::check())
             <form action="{{ url('/signout') }}" method="GET">
@@ -56,7 +56,7 @@
                             <div class="sm:ml-10 text-xs sm:text-base">
                                 <strong>:</strong>
                                 <input type="text" id="nameInput" name="name" value="{{ auth()->user()->name }}" readonly class=" h-6 sm:h-8 rounded p-2 bg-inherit"></input>
-                                <button type="button" onclick="changeValue('name')"><img src="../../public/edit.svg"/></button>
+                                <button type="button" onclick="changeValue('name')"><img src="https://svgshare.com/i/13rG.svg"/></button>
                             </div>
                         </div>
                         <div class="flex mb-2">
@@ -71,7 +71,7 @@
                             <div class="sm:ml-10 text-xs sm:text-base">
                                 <strong>:</strong>
                                 <input type="text" id="ageInput" name="age" value="{{ auth()->user()->age }}" readonly class=" h-6 sm:h-8 rounded p-2 bg-inherit"></input>
-                                <button type="button" onclick="changeValue('age')"><img src="../../public/edit.svg"/></button>
+                                <button type="button" onclick="changeValue('age')"><img src="https://svgshare.com/i/13rG.svg"/></button>
                             </div>
                         </div>
                         <div class="flex mb-2">
@@ -79,7 +79,7 @@
                             <div class="sm:ml-10 text-xs sm:text-base">
                                 <strong>:</strong>
                                 <input type="text" id="addressInput" name="address" value="{{ auth()->user()->address }}" readonly class=" h-6 sm:h-8 rounded p-2 bg-inherit"></input>
-                                <button type="button" onclick="changeValue('address')"><img src="../../public/edit.svg"/></button>
+                                <button type="button" onclick="changeValue('address')"><img src="https://svgshare.com/i/13rG.svg"/></button>
                             </div>
                         </div>
                         <div class="flex mb-2">
@@ -87,7 +87,7 @@
                             <div class="sm:ml-10 text-xs sm:text-base">
                                 <strong>:</strong>
                                 <input type="text" id="phoneInput" name="phone_number" value="{{ auth()->user()->phone_number }}" readonly class=" h-6 sm:h-8 rounded p-2 bg-inherit"></input>
-                                <button type="button" onclick="changeValue('phone')"><img src="../../public/edit.svg"/></button>
+                                <button type="button" onclick="changeValue('phone')"><img src="https://svgshare.com/i/13rG.svg"/></button>
                             </div>
                         </div>
                         <div class="flex mb-2">

@@ -13,6 +13,7 @@
 ## Overview
 
 Made by : [FarelW](https://github.com/FarelW)
+Deployment : [Link](https://user-fw-laravel-auth-o5lw9ighs-eeksapi.vercel.app/)
 
 Here is the purpose of making this project :
 - To fullfil the submission from TalentGrowth technical test submission
@@ -81,6 +82,6 @@ Make sure that port 3000, has not been taken
 
 ## Links
 - [Repository](https://github.com/FarelW/user-auth-laravel)
-- [Deployment](https://user-fw-laravel-auth-l240xdatm-eeksapi.vercel.app/)
+- [Deployment](https://user-fw-laravel-auth-o5lw9ighs-eeksapi.vercel.app/)
 - Issue tracker :
    - If you encounter any issues with the program, come across any disruptive bugs, or have any suggestions for improvement, please don't hesitate to reach out by sending an email to winaldafarell@gmail.com Your feedback is greatly appreciated.
