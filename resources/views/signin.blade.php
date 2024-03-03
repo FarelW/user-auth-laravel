@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sign In</title>
-    <link rel="icon" type="image/x-icon" href="{{ asset('tes.ico') }}" />
+    <link rel="icon" type="image/x-icon" href="../../public/tes.ico" />
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;600&display=swap" rel="stylesheet">
     @vite('resources/css/app.css')
 </head>
